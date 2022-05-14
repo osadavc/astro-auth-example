@@ -1,0 +1,23 @@
+{
+  "name": "@example/minimal",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/react": "^0.1.2",
+    "astro": "^1.0.0-beta.28",
+    "react": "^17.0.2 || ^18.0.0",
+    "react-dom": "^17.0.2 || ^18.0.0"
+  },
+  "dependencies": {
+    "@astro-auth/client": "^1.0.2",
+    "@astro-auth/core": "^1.0.10",
+    "@astro-auth/providers": "^1.0.4",
+    "@astrojs/vercel": "^0.2.1"
+  }
+}
